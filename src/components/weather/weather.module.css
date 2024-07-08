@@ -1,0 +1,56 @@
+.container {
+  background-color: skyblue;
+  height: 510px;
+  display: flex;
+}
+
+.container .div1 {
+  flex: 1;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container .div1 p{
+  font-size: large;
+}
+
+.container .div1 select{
+  font-size: large;
+  text-align: center;
+}
+
+.container .div2 .i1{
+  color: darkorange;
+}
+
+
+.container .div2 .i2{
+  color: black;
+}
+
+
+.container .div2 .i3{
+  color: darkblue;
+}
+
+.container .div2 .i4{
+  color: gray;
+}
+
+.container .div2 .i5{
+  color: black;
+}
+
+.container .div2 {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .div2 img {
+  height: 50px;
+  margin-top: 15px;
+}

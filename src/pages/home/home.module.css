@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 50px 510px 80px;
+}
+
+.container .title{
+    grid-column: 2/12;
+    grid-row: 1/2;
+}
+
+.container .weather{
+    grid-column: 2/12;
+    grid-row: 2/3;
+}
+
+.container .footer{
+    grid-column: 2/12;
+    grid-row: 3/-1;
+}
+
+@media screen and (max-width:900px){
+    .container .title{
+        grid-column: 1/-1;
+    }
+    
+    .container .weather{
+        grid-column: 1/-1;
+    }
+    
+    .container .footer{
+        grid-column: 1/-1;
+    }
+    
+
+}

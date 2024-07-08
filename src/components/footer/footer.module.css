@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkgrey;
+    height: 80px;
+}
+
+.container img{
+    height: 50px;
+
+}
+
+.container img:hover{
+    cursor: pointer;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
